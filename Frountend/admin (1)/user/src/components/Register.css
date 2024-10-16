@@ -1,0 +1,272 @@
+/* .register-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-check {
+  margin-bottom: 20px;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+}
+
+.text-danger {
+  color: red;
+} */
+
+
+
+
+
+body {
+  /* linear-gradient(135deg, #f5f7fa, #e1e9f1); */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+.register-container {
+  max-width: 50rem;
+  margin: 80px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 8px solid #3aafa9;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 1.3s ease-out;
+}
+
+.error {
+  color: red; /* Error messages will appear in red */
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.register-container:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Decorative circles with subtle movement */
+.register-container::before {
+  content: '';
+  position: absolute;
+  top: -70px;
+  right: -70px;
+  width: 220px;
+  height: 220px;
+  background: rgba(80, 133, 165, 0.2);
+  border-radius: 50%;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+
+.register-container:hover::before {
+  transform: translateY(20px) scale(1.1);
+}
+
+.register-container::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background: rgba(80, 133, 165, 0.3);
+  border-radius: 50%;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+
+.register-container:hover::after {
+  transform: translateY(-20px) scale(1.1);
+}
+
+/* Title with more styling */
+.register-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  color: #3aafa9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.register-form .form-group {
+  margin-bottom: 20px;
+}
+
+.register-form .form-label {
+  font-weight: 700;
+  color: #444;
+}
+
+.register-form .form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 14px;
+  font-size: 16px;
+  transition: all 0.4s ease;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form .form-control:focus {
+  border-color: #3aafa9;
+  box-shadow: 0 0 20px rgba(80, 133, 165, 0.4);
+  transform: scale(1.02);
+}
+
+/* Animated button with dynamic background */
+.register-button {
+  background: linear-gradient(135deg, #3aafa9, #6b9fb3);
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+  z-index: 2;
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+  margin-top: 20px; /* Add margin here */
+}
+
+@keyframes gradientShift {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.register-button:hover {
+  background: linear-gradient(135deg, #406d85, #3aafa9);
+  transform: translateY(-7px) scale(1.05);
+  box-shadow: 0 15px 25px rgba(64, 109, 133, 0.4);
+}
+
+/* Border glow */
+.register-container::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  left: -60px;
+  width: 250px;
+  height: 250px;
+  background: rgba(80, 133, 165, 0.3);
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+/* Toast styles */
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050; /* Make sure it's above everything */
+}
+
+.toast {
+  background-color: #3aafa9;
+  color: green;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .register-container {
+      padding: 30px;
+      margin: 40px auto;
+  }
+
+  .register-title {
+      font-size: 30px;
+  }
+
+  .register-form .form-control {
+      font-size: 14px;
+      padding: 12px;
+  }
+
+  .register-button {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container {
+      margin: 20px auto;
+  }
+
+  .register-title {
+      font-size: 26px;
+  }
+
+  .register-form .form-control {
+      font-size: 13px;
+  }
+
+  .register-button {
+      font-size: 15px;
+  }
+}
+
+
+

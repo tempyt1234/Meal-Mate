@@ -1,0 +1,110 @@
+{
+  "mealplans": [
+    {
+      "id": "MealPlan_1726722225368",
+      "mealPlanId": "MealPlan_1726722225368",
+      "dietType": "299",
+      "mealplanPrice": "190",
+      "meals": {
+        "MONDAY": {
+          "mealId": "Meal_1",
+          "mealPrice": 0,
+          "foodItems": [
+            {
+              "foodItemId": "Food_1",
+              "name": "Rice",
+              "description": "Rice",
+              "image": "Rice.jpg",
+              "category": "Rice",
+              "quantity": "string"
+            }
+          ]
+        },
+        "TUESDAY": {
+          "mealId": "Meal_1",
+          "mealPrice": 0,
+          "foodItems": [
+            {
+              "foodItemId": "Food_1",
+              "name": "Rice",
+              "description": "Rice",
+              "image": "Rice.jpg",
+              "category": "Rice",
+              "quantity": "string"
+            }
+          ]
+        },
+        "WEDNESDAY": {
+          "mealId": "Meal_1",
+          "mealPrice": 0,
+          "foodItems": [
+            {
+              "foodItemId": "Food_1",
+              "name": "Rice",
+              "description": "Rice",
+              "image": "Rice.jpg",
+              "category": "Rice",
+              "quantity": "string"
+            }
+          ]
+        },
+        "THURSDAY": {
+          "mealId": "Meal_1",
+          "mealPrice": 0,
+          "foodItems": [
+            {
+              "foodItemId": "Food_1",
+              "name": "Rice",
+              "description": "Rice",
+              "image": "Rice.jpg",
+              "category": "Rice",
+              "quantity": "string"
+            }
+          ]
+        },
+        "FRIDAY": {
+          "mealId": "Meal_1",
+          "mealPrice": 0,
+          "foodItems": [
+            {
+              "foodItemId": "Food_1",
+              "name": "Rice",
+              "description": "Rice",
+              "image": "Rice.jpg",
+              "category": "Rice",
+              "quantity": "string"
+            }
+          ]
+        },
+        "SATURDAY": {
+          "mealId": "Meal_1",
+          "mealPrice": 0,
+          "foodItems": [
+            {
+              "foodItemId": "Food_1",
+              "name": "Rice",
+              "description": "Rice",
+              "image": "Rice.jpg",
+              "category": "Rice",
+              "quantity": "string"
+            }
+          ]
+        },
+        "SUNDAY": {
+          "mealId": "Meal_1",
+          "mealPrice": 0,
+          "foodItems": [
+            {
+              "foodItemId": "Food_1",
+              "name": "Rice",
+              "description": "Rice",
+              "image": "Rice.jpg",
+              "category": "Rice",
+              "quantity": "string"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

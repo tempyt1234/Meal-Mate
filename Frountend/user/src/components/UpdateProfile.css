@@ -1,0 +1,66 @@
+/* Container styling */
+.update-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styling */
+  .update-profile-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Card styling */
+  .update-profile-card {
+    border: 1px solid #ddd;
+    border-radius: 0.375rem; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #fff; /* White background */
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .update-profile-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .update-profile-form label {
+    font-weight: 600;
+  }
+  
+  .update-profile-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #ced4da;
+  }
+  
+  .update-profile-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Error text styling */
+  .error-text {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

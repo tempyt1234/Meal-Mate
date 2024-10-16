@@ -1,0 +1,99 @@
+/* Food Item List Container */
+.food-item-list-container {
+  padding: 2em;
+  background-color: #f8f9fa; /* Subtle background for better contrast */
+}
+
+/* Title Styling */
+.food-item-list-container h2 {
+  text-align: center;
+  color: #3aafa9; /* Title color to match theme */
+  margin-bottom: 1.5em;
+  font-weight: bold;
+  font-size: 2em; /* Larger font size for emphasis */
+}
+
+/* List Group Item Styling */
+.food-item-list-container .list-group-item {
+  padding: 0; /* Remove extra padding */
+  margin-bottom: 1.5em; /* Space between items */
+}
+
+/* Card Styling */
+.food-item-list-container .card {
+  background: linear-gradient(135deg, #f9f9f9 30%, #3aafa9 100%); /* Light gradient background */
+  border: none; /* Remove default border */
+  border-radius: 15px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  overflow: hidden; /* Prevent overflow for rounded corners */
+}
+
+/* Card Hover Effect */
+.food-item-list-container .card:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Image Styling */
+.food-item-list-container .card img {
+  width: 100%; /* Set width to 100% of the column */
+  height: 150px; /* Fixed height for uniformity */
+  object-fit: cover; /* Maintain aspect ratio */
+  object-position: center; /* Center the image */
+  border-radius: 15px 15px 0 0; /* Match image corners with card */
+}
+
+/* Card Body Styling */
+.food-item-list-container .card-body {
+  padding: 1.5em; /* Increased padding for spacious feel */
+}
+
+/* Card Title Styling */
+.food-item-list-container .card-title {
+  font-weight: bold; /* Bold title */
+  font-size: 1.6em; /* Slightly larger font size */
+  color: #17252a; /* Dark color for contrast */
+  margin-bottom: 0.5em; /* Space below title */
+}
+
+/* Card Text Styling */
+.food-item-list-container .card-text {
+  color: #555; /* Darker text color for better readability */
+  margin-bottom: 1em; /* Space below text */
+  line-height: 1.5; /* Improved line height for readability */
+}
+
+/* Button Styling */
+.food-item-list-container button {
+  background-color: #3aafa9 !important; /* Ensure button color */
+  border: none; /* Remove border */
+  color: white; /* Text color */
+  border-radius: 5px; /* Rounded buttons */
+  padding: 0.5em 1em; /* Button padding */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  font-weight: bold; /* Bold text for buttons */
+}
+
+/* Button Hover Effects */
+.food-item-list-container button:hover {
+  opacity: 0.9; /* Slightly fade buttons on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .food-item-list-container h2 {
+      font-size: 1.5em; /* Adjust title size for smaller screens */
+  }
+
+  .food-item-list-container .card img {
+      height: 120px; /* Adjust image height for smaller screens */
+  }
+
+  .food-item-list-container .card-body {
+      padding: 1em; /* Reduce padding on smaller screens */
+  }
+
+  .food-item-list-container .card-title {
+      font-size: 1.4em; /* Adjust title size for smaller screens */
+  }
+}

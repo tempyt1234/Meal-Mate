@@ -1,0 +1,52 @@
+{
+  "subscription": [
+    {
+      "subscriptionid": 1,
+      "mealid": 101,
+      "startdate": "2024-09-10T00:00:00Z",
+      "enddate": "2024-09-10T23:59:59Z",
+      "price": 10.99,
+      "diettype": "Balanced-Veg"
+    },
+    {
+      "subscriptionid": 5,
+      "mealid": 105,
+      "startdate": "2024-09-10T00:00:00Z",
+      "enddate": "2024-09-10T23:59:59Z",
+      "price": 10.99,
+      "diettype": "Balanced-Non-Veg"
+    },
+    {
+      "subscriptionid": 2,
+      "mealid": 102,
+      "startdate": "2024-09-10T00:00:00Z",
+      "enddate": "2024-09-16T23:59:59Z",
+      "price": 69.99,
+      "diettype": "Weight Loss-Veg"
+    },
+    {
+      "subscriptionid": 6,
+      "mealid": 106,
+      "startdate": "2024-09-10T00:00:00Z",
+      "enddate": "2024-09-16T23:59:59Z",
+      "price": 69.99,
+      "diettype": "Weight Loss-Non-Veg"
+    },
+    {
+      "subscriptionid": 3,
+      "mealid": 103,
+      "startdate": "2024-09-10T00:00:00Z",
+      "enddate": "2024-10-09T23:59:59Z",
+      "price": 249.99,
+      "diettype": "Weight Gain-Veg"
+    },
+    {
+      "subscriptionid": 7,
+      "mealid": 107,
+      "startdate": "2024-09-10T00:00:00Z",
+      "enddate": "2024-10-09T23:59:59Z",
+      "price": 249.99,
+      "diettype": "Weight Gain-Non-Veg"
+    }
+  ]
+}

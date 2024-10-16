@@ -1,0 +1,14 @@
+spring.application.name=configserver
+#Server port
+server.port = 8888
+ 
+#Git repo location.
+spring.cloud.config.server.git.uri=https://gitlab.stackroute.in/1415902_Bokkela/mealmate_config.git
+spring.cloud.config.server.git.username=1415902_Bokkela
+spring.cloud.config.server.git.password=TeAd-yzy-6CdAi7WcX1x
+spring.cloud.config.server.git.default-label=master
+ 
+#Eureka-server
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true

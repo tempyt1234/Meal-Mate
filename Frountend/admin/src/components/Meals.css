@@ -1,0 +1,219 @@
+
+.meals-title{
+  text-align: center;
+  color: #3aafa9; /* Title color to match theme */
+  margin-bottom: 1.5em;
+  font-weight: bold;
+  font-size: 2em; /* Larger font size for emphasis */
+}
+/* Container styling with bubbles */
+.meals-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 4em;
+  /* margin: 20px auto; */
+  max-width:  70rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  border-top: 8px solid #3aafa9; /* Match navbar color */
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.meals-container:hover {
+  /* transform: translateY(-5px) scale(1.02); */
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Decorative bubbles inside the container */
+.meals-container::before,
+.meals-container::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.meals-container::before {
+  top: -70px;
+  right: -70px;
+  width: 220px;
+  height: 220px;
+  background: rgba(58, 175, 169, 0.2);
+}
+
+.meals-container::after {
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background: rgba(58, 175, 169, 0.3);
+}
+
+/* List of meals styling */
+.meal-item {
+  background: linear-gradient(135deg, #f9f9f9 30%, #3aafa9 135%);
+  color: #333; /* Adjust text color for better contrast */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2; /* Above the bubbles */
+}
+
+.meal-item ul {
+  padding-left: 20px;
+  margin: 0; /* Remove margin for better alignment */
+}
+
+.meal-item button {
+  margin-left: 10px;
+}
+
+/* Ensure bubble decoration stays within the container */
+.meal-list {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .meals-container {
+    padding: 30px;
+    margin: 40px auto;
+  }
+}
+
+/* meal-custom modal styling */
+.meal-custom-modal .modal-content {
+  position: relative; /* Position relative for absolute children */
+  background-color: #ffffff; /* White background for the modal */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Deep shadow effect */
+  overflow: hidden; /* Clip bubbles */
+}
+
+/* Decorative bubbles in background */
+.meal-custom-modal .modal-content::before{
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0; /* Behind the content */
+  opacity: 0.25; 
+  
+}
+.meal-custom-modal .modal-content::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0; /* Behind the content */
+  opacity: 0.25; /* Increased transparency for better visibility */
+}
+
+.meal-custom-modal .modal-content::before {
+  width: 350px; /* Increased size of the bubble */
+  height: 350px;
+  background: rgba(58, 175, 169, 0.7); /* More vibrant color */
+  top: -70px; /* Position above */
+  left: -70px; /* Position to the left */
+}
+
+.meal-custom-modal .modal-content::after {
+  width: 300px; /* Increased size of the bubble */
+  height: 300px;
+  background: rgba(58, 175, 169, 0.5); /* Lighter but visible color */
+  bottom: -60px; /* Position below */
+  right: -60px; /* Position to the right */
+}
+
+.meal-custom-modal .modal-header {
+  background-color: #3aafa9; /* Header color matching the theme */
+  color: white; /* Text color */
+  border-top-left-radius: 20px; /* Rounded corners */
+  border-top-right-radius: 20px; /* Rounded corners */
+  text-align: center; /* Center the title */
+  padding: 15px; /* Padding for header */
+}
+
+.meal-custom-modal .modal-title {
+  font-weight: bold; /* Bold title for emphasis */
+  font-size: 1.5em; /* Increase font size */
+}
+
+.meal-custom-modal .modal-body {
+  padding: 30px; /* More padding for spacious feel */
+  font-size: 1.1em; /* Slightly larger text */
+  color: #333; /* Darker text color for contrast */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.meal-custom-modal .modal-footer {
+  border-top: none; /* Remove border from footer */
+  justify-content: center; /* Center buttons */
+  padding: 15px; /* Padding for footer */
+}
+
+/* Button styling in modal */
+.meal-custom-modal .btn {
+  border-radius: 10px; /* Rounded buttons */
+  padding: 10px 20px; /* More padding for buttons */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+}
+
+.meal-custom-modal .btn:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.meal-custom-modal .btn-primary {
+  background-color: #3aafa9; /* Primary button color */
+  border: none; /* Remove border */
+}
+
+.meal-custom-modal .btn-primary:hover {
+  background-color: #319b97; /* Darker shade on hover */
+}
+
+.meal-custom-modal .btn-secondary {
+  background-color: #f0f0f0; /* Secondary button color */
+  border: none; /* Remove border */
+  color: #333; /* Dark text color */
+}
+
+.meal-custom-modal .btn-secondary:hover {
+  background-color: #e0e0e0; /* Darker shade on hover */
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  background-color: #3aafa9; /* Matching the Admin Panel color */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+  background-color: #0c2b2d; /* Hover color */
+}
+
+.pagination-controls span {
+  margin: 0 10px;
+  font-weight: bold;
+}

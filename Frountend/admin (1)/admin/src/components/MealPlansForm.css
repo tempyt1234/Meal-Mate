@@ -1,0 +1,33 @@
+/* MealPlansForm.css */
+
+/* Container for the form */
+.meal-plans-form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Form input styling */
+  .form-input {
+    border-radius: 5px;
+    border: 1px solid #3aafa9; /* Navbar color */
+  }
+  
+  /* Button styling */
+  .submit-button {
+    background-color: #17252a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0c2b2d;
+  }
+  

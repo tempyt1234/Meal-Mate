@@ -1,0 +1,262 @@
+/* AdminPanel.css */
+
+/* Background and container styling */
+.admin-panel {
+  background-color: #fff; /* Set background color to white */
+  padding-top: 0;  /* Remove any extra padding */
+}
+
+
+/* Admin panel container */
+.admin-panel {
+  max-width: 70rem;
+  /* margin: 20px auto; */
+  /* min-width: 70rem; */
+  /* padding: 40px; */
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 8px solid #3aafa9; /* Navbar color */
+  position: relative;
+  overflow: hidden;
+}
+
+.admin-panel:hover {
+  /* transform: translateY(px) scale(1.02); */
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.admin-panel-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #3aafa9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #17252a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+button:hover {
+  background-color: #0c2b2d;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Food item list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+/* Alert/message */
+.message {
+  color: #3aafa9;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Decorative circle */
+.admin-panel::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5; /* Keeps the ::before circle in front */
+}
+
+.admin-panel::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.admin-panel::before {
+  top: -70px;
+  right: -70px;
+  width: 220px;
+  height: 220px;
+  background: rgba(58, 175, 169, 0.2);
+}
+
+.admin-panel::after {
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background: rgba(58, 175, 169, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .admin-panel {
+    padding: 30px;
+    margin: 40px auto;
+  }
+}
+
+/* Custom modal styling */
+.admin-custom-modal .modal-content {
+  position: relative; /* Position relative for absolute children */
+  background-color: #ffffff; /* White background for the modal */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Deep shadow effect */
+  overflow: hidden; /* Clip bubbles */
+  width: 38em;
+}
+
+/* Decorative bubbles in background */
+.admin-custom-modal .modal-content::before{
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0; /* Behind the content */
+  opacity: 0.25; 
+}
+.admin-custom-modal .modal-content::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0; /* Behind the content */
+  opacity: 0.25; /* Increased transparency for better visibility */
+}
+
+.admin-custom-modal .modal-content::before {
+  width: 20rem; /* Increased size of the bubble */
+  height: 20rem;
+  background: rgba(58, 175, 169, 0.7); /* More vibrant color */
+  top: -70px; /* Position above */
+  left: -70px; /* Position to the left */
+}
+
+.admin-custom-modal .modal-content::after {
+  width: 10rem; /* Increased size of the bubble */
+  height: 10rem;
+  background: rgba(58, 175, 169, 0.5); /* Lighter but visible color */
+  bottom: -60px; /* Position below */
+  right: -60px; /* Position to the right */
+}
+
+.admin-custom-modal .modal-header {
+  background-color: #3aafa9; /* Header color matching the theme */
+  color: white; /* Text color */
+  border-top-left-radius: 20px; /* Rounded corners */
+  border-top-right-radius: 20px; /* Rounded corners */
+  text-align: center; /* Center the title */
+  padding: 15px; /* Padding for header */
+}
+
+.admin-custom-modal .modal-title {
+  font-weight: bold; /* Bold title for emphasis */
+  font-size: 1.5em; /* Increase font size */
+}
+
+.admin-custom-modal .modal-body {
+  padding: 30px; /* More padding for spacious feel */
+  font-size: 1.1em; /* Slightly larger text */
+  color: #333; /* Darker text color for contrast */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.admin-custom-modal .modal-footer {
+  border-top: none; /* Remove border from footer */
+  justify-content: center; /* Center buttons */
+  padding: 15px; /* Padding for footer */
+}
+
+/* Button styling in modal */
+.admin-custom-modal .btn {
+  border-radius: 10px; /* Rounded buttons */
+  padding: 10px 20px; /* More padding for buttons */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+}
+
+.admin-custom-modal .btn:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.admin-custom-modal .btn-primary {
+  background-color: #3aafa9; /* Primary button color */
+  border: none; /* Remove border */
+}
+
+.admin-custom-modal .btn-primary:hover {
+  background-color: #319b97; /* Darker shade on hover */
+}
+
+.admin-custom-modal .btn-secondary {
+  background-color: #f0f0f0; /* Secondary button color */
+  border: none; /* Remove border */
+  color: #333; /* Dark text color */
+}
+
+.admin-custom-modal .btn-secondary:hover {
+  background-color: #e0e0e0; /* Darker shade on hover */
+}
+
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  background-color: #3aafa9; /* Matching the Admin Panel color */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+  background-color: #0c2b2d; /* Hover color */
+}
+
+.pagination-controls span {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+

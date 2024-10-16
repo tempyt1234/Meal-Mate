@@ -1,0 +1,122 @@
+
+
+/* Container */
+.profile-container {
+  max-width: 550px;
+  margin: 80px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 8px solid #3aafa9;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 1.3s ease-out;
+}
+
+.profile-container:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Decorative circles with subtle movement */
+.profile-container::before {
+  content: '';
+  position: absolute;
+  top: -70px;
+  right: -70px;
+  width: 220px;
+  height: 220px;
+  background: rgba(80, 133, 165, 0.2);
+  border-radius: 50%;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+
+.profile-container:hover::before {
+  transform: translateY(20px) scale(1.1);
+}
+
+.profile-container::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background: rgba(80, 133, 165, 0.3);
+  border-radius: 50%;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+
+.profile-container:hover::after {
+  transform: translateY(-20px) scale(1.1);
+}
+
+/* Title with more styling */
+.profile-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  color: #3aafa9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.profile-form .form-group {
+  margin-bottom: 20px;
+}
+
+.profile-form .form-label {
+  font-weight: 700;
+  color: #444;
+}
+
+.profile-form .form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 14px;
+  font-size: 16px;
+  transition: all 0.4s ease;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-form .form-control:focus {
+  border-color: #3aafa9;
+  box-shadow: 0 0 20px rgba(80, 133, 165, 0.2);
+}
+
+/* Button */
+.profile-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #3aafa9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.profile-button:hover {
+  background-color: #406a83;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,240 @@
+/* MealPlans.css */
+
+.mealplan-title {
+  text-align: center;
+  color: #3aafa9; /* Title color to match theme */
+  margin-bottom: 1.5em;
+  font-weight: bold;
+  font-size: 2em; /* Larger font size for emphasis */
+}
+
+/* Meal plans container */
+.meal-plans-container {
+  max-width: 70rem;
+  padding: 4em;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 8px solid #3aafa9; /* Navbar color */
+  position: relative;
+  overflow: hidden;
+}
+
+.meal-plans-container:hover {
+  /* transform: translateY(-5px) scale(1.02); */
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+.meal-day-card {
+  background: linear-gradient(135deg, #f9f9f9 30%, #f9f9f9 70%, #3aafa9 180%);  /* Light version of navbar color */
+  border: none; /* Remove border for a cleaner look */
+  border-radius: 15px; /* Slightly rounded corners */
+  padding: 20px; /* Increased padding for better spacing */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: background 0.3s ease; /* Smooth background change */
+  margin-bottom: 1.5rem; /* Spacing between meal day cards */
+}
+
+.meal-day-card:hover {
+  background-color: rgba(58, 175, 169, 0.2); /* Darker on hover */
+}
+
+/* Title */
+.meal-plans-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #3aafa9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #17252a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  margin-top: 1rem; /* Space between button and other elements */
+}
+
+.btn:hover {
+  background-color: #0c2b2d;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Food item list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+li {
+  background-color: #fff;
+  margin: 15px 0; /* Increased margin for better spacing between items */
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+/* Alert/message */
+.message {
+  color: #3aafa9;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 16px;
+}
+
+/* Decorative circle */
+.meal-plans-container::before, .meal-plans-container::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.meal-plans-container::before {
+  top: -70px;
+  right: -70px;
+  width: 220px;
+  height: 220px;
+  background: rgba(58, 175, 169, 0.2);
+}
+
+.meal-plans-container::after {
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background: rgba(58, 175, 169, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .meal-plans-container {
+    padding: 30px;
+    margin: 40px auto;
+  }
+
+  .btn {
+    width: 100%; /* Make buttons full-width on small screens */
+  }
+}
+
+/* Custom modal styling */
+.custom-modal .modal-content {
+  position: relative; /* Position relative for absolute children */
+  background-color: #ffffff; /* White background for the modal */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Deep shadow effect */
+  overflow: hidden; /* Clip bubbles */
+  width: 38em;
+}
+
+/* Decorative bubbles in background */
+.custom-modal .modal-content::before{
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0; /* Behind the content */
+  opacity: 0.25; 
+}
+.custom-modal .modal-content::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0; /* Behind the content */
+  opacity: 0.25; /* Increased transparency for better visibility */
+}
+
+.custom-modal .modal-content::before {
+  width: 20rem; /* Increased size of the bubble */
+  height: 20rem;
+  background: rgba(58, 175, 169, 0.7); /* More vibrant color */
+  top: -70px; /* Position above */
+  left: -70px; /* Position to the left */
+}
+
+.custom-modal .modal-content::after {
+  width: 10rem; /* Increased size of the bubble */
+  height: 10rem;
+  background: rgba(58, 175, 169, 0.5); /* Lighter but visible color */
+  bottom: -60px; /* Position below */
+  right: -60px; /* Position to the right */
+}
+
+.custom-modal .modal-header {
+  background-color: #3aafa9; /* Header color matching the theme */
+  color: white; /* Text color */
+  border-top-left-radius: 20px; /* Rounded corners */
+  border-top-right-radius: 20px; /* Rounded corners */
+  text-align: center; /* Center the title */
+  padding: 15px; /* Padding for header */
+}
+
+.custom-modal .modal-title {
+  font-weight: bold; /* Bold title for emphasis */
+  font-size: 1.5em; /* Increase font size */
+}
+
+.custom-modal .modal-body {
+  padding: 30px; /* More padding for spacious feel */
+  font-size: 1.1em; /* Slightly larger text */
+  color: #333; /* Darker text color for contrast */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.custom-modal .modal-footer {
+  border-top: none; /* Remove border from footer */
+  justify-content: center; /* Center buttons */
+  padding: 15px; /* Padding for footer */
+}
+
+/* Button styling in modal */
+.custom-modal .btn {
+  border-radius: 10px; /* Rounded buttons */
+  padding: 10px 20px; /* More padding for buttons */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+}
+
+.custom-modal .btn:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.custom-modal .btn-primary {
+  background-color: #3aafa9; /* Primary button color */
+  border: none; /* Remove border */
+}
+
+.custom-modal .btn-primary:hover {
+  background-color: #319b97; /* Darker shade on hover */
+}
+
+.custom-modal .btn-secondary {
+  background-color: #f0f0f0; /* Secondary button color */
+  border: none; /* Remove border */
+  color: #333; /* Dark text color */
+}
+
+.custom-modal .btn-secondary:hover {
+  background-color: #e0e0e0; /* Darker shade on hover */
+}

@@ -1,0 +1,215 @@
+/* OrderStatus.css */
+
+/* Background and container styling */
+.order-status-container {
+  max-width: 900px; /* Increased width to 900px */
+  min-height: 2rem; /* Added minimum height for the container */
+  margin: 20px auto;
+  padding: 40px; /* Added padding for better spacing */
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 8px solid #3aafa9; /* Navbar color */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover effect */
+.order-status-container:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Reduce bubble size on hover */
+.order-status-container:hover::before {
+  transform: scale(0.9); /* Reduce size of the top bubble */
+}
+
+.order-status-container:hover::after {
+  transform: scale(0.8); /* Reduce size of the bottom bubble */
+}
+
+/* Header styling */
+.order-status-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.order-status-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #3aafa9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtitle styling */
+.order-status-subtitle {
+  font-size: 16px;
+  color: #0B0615;
+  margin-top: 5px;
+}
+
+/* Order steps styles */
+.order-steps-horizontal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.order-step {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Step hover effect */
+.order-step:hover {
+  transform: translateY(-5px);
+}
+
+/* Active and completed steps */
+.order-step.active {
+  background-color: #abd0da;
+  color: white;
+}
+
+/* Step icon styling */
+.step-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  background-color: #50a5a0;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Step info styling */
+.step-info h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Completed step icon */
+.order-step.completed .step-icon {
+  background-color: #4CAF50;
+}
+
+/* Order info styling */
+.order-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.order-info p {
+  font-size: 14px;
+  color: #888;
+}
+
+.order-info strong {
+  color: #444;
+}
+
+/* Action buttons */
+.order-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.view-order-btn,
+.contact-support-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  margin: 0 10px;
+}
+
+/* Button styles */
+.view-order-btn {
+  background-color: #17252a;
+  color: white;
+}
+
+.view-order-btn:hover {
+  background-color: #0c2b2d;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+.contact-support-btn {
+  background-color: #F44336;
+  color: white;
+}
+
+.contact-support-btn:hover {
+  background-color: #E33D2E;
+}
+
+/* Decorative bubbles */
+.order-status-container::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5; /* Keeps the ::before bubble in front */
+  transition: transform 0.3s ease; /* Added transition for smooth effect */
+}
+
+.order-status-container::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  transition: transform 0.3s ease; /* Added transition for smooth effect */
+}
+
+.order-status-container::before {
+  top: -70px;
+  right: -70px;
+  width: 220px;
+  height: 220px;
+  background: rgba(58, 175, 169, 0.2);
+}
+
+.order-status-container::after {
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background: rgba(58, 175, 169, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .order-status-container {
+    padding: 30px;
+    margin: 40px auto;
+  }
+}

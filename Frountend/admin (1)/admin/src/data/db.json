@@ -1,0 +1,195 @@
+{
+  "users": [
+    {
+      "userid": 1,
+      "name": "John Doe",
+      "emailid": "john@example.com",
+      "deliveryaddress": "123 Elm St",
+      "phone": 1234567890,
+      "password": "password",
+      "subscriptionid": 1,
+      "id": "31bd"
+    },
+    {
+      "userid": 2,
+      "name": "Jane Doe",
+      "emailid": "jane@example.com",
+      "deliveryaddress": "456 Oak St",
+      "phone": 1234567891,
+      "password": "password",
+      "subscriptionid": 0,
+      "id": "1d77"
+    }
+  ],
+  "meals": [
+    {
+      "id": "Meal_1726632411653",
+      "foodItems": [
+        {
+          "id": "MealMate_1726547830701",
+          "foodItemId": "MealMate_1726547830701",
+          "name": "Ghee Rice",
+          "description": "Ghee rice is a one pot rice dish made with ghee, rice, spices & nuts. It is one of the most basic flavored rice recipe served with kurma or any curry.",
+          "category": "Rice",
+          "image": "https://th.bing.com/th?q=Ghee+Rice+PNG&w=138&h=138&c=7&o=5&dpr=1.5&pid=1.7&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1",
+          "quantity": "200 grams"
+        },
+        {
+          "id": "MealMate_1726547977696",
+          "foodItemId": "MealMate_1726547977696",
+          "name": "chicken fry",
+          "description": "chicken fry of andhra style",
+          "category": "Curry",
+          "image": "https://th.bing.com/th?id=OSK.21c627cb9b9ee15ab4804e7a4f6ca20c&w=184&h=275&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+          "quantity": "200 grams"
+        },
+        {
+          "id": "MealMate_1726548034242",
+          "foodItemId": "MealMate_1726548034242",
+          "name": "Sambar",
+          "description": "sambar with drumsticks",
+          "category": "Sambar",
+          "image": "https://www.bing.com/th?id=OSK.fe1b428ff45c50ba16b896462587a8aa&w=197&h=118&c=7&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+          "quantity": "200 ml"
+        },
+        {
+          "id": "MealMate_1726552025825",
+          "foodItemId": "MealMate_1726552025825",
+          "name": "Gulab Jamun",
+          "description": "classic Indian sweet made with milk solids.",
+          "category": "Sweet",
+          "image": "https://www.bing.com/th?id=OIP.kq4e7jHaSt3t1BAKFKVjNgHaHa&w=146&h=146&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+          "quantity": "2 pieces"
+        }
+      ],
+      "mealPrice": "120",
+      "mealId": "Meal_1726632411653"
+    },
+    {
+      "id": "Meal_1726670426075",
+      "foodItems": [
+        {
+          "id": "MealMate_1726547830701",
+          "foodItemId": "MealMate_1726547830701",
+          "name": "Ghee Rice",
+          "description": "Ghee rice is a one pot rice dish made with ghee, rice, spices & nuts. It is one of the most basic flavored rice recipe served with kurma or any curry.",
+          "category": "Rice",
+          "image": "https://th.bing.com/th?q=Ghee+Rice+PNG&w=138&h=138&c=7&o=5&dpr=1.5&pid=1.7&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1",
+          "quantity": "200 grams"
+        },
+        {
+          "id": "MealMate_1726547906410",
+          "foodItemId": "MealMate_1726547906410",
+          "name": "Chicken Salad",
+          "description": "Chicken Salad Chick is a chicken salad restaurant that offers over a dozen varieties of chicken salads, pimento cheese, and more. ",
+          "category": "Salad",
+          "image": "https://tse4.mm.bing.net/th/id/OIP.1cYtq-NCJ02dCIO7Ll1PNAHaEK?w=303&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+          "quantity": "2 pieces"
+        },
+        {
+          "id": "MealMate_1726547977696",
+          "foodItemId": "MealMate_1726547977696",
+          "name": "chicken fry",
+          "description": "chicken fry of andhra style",
+          "category": "Curry",
+          "image": "https://th.bing.com/th?id=OSK.21c627cb9b9ee15ab4804e7a4f6ca20c&w=184&h=275&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+          "quantity": "200 grams"
+        },
+        {
+          "id": "MealMate_1726548034242",
+          "foodItemId": "MealMate_1726548034242",
+          "name": "Sambar",
+          "description": "sambar with drumsticks",
+          "category": "Sambar",
+          "image": "https://www.bing.com/th?id=OSK.fe1b428ff45c50ba16b896462587a8aa&w=197&h=118&c=7&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+          "quantity": "200 ml"
+        },
+        {
+          "id": "MealMate_1726550124614",
+          "foodItemId": "MealMate_1726550124614",
+          "name": "Quinoa Bowl",
+          "description": "Quinoa Bowl",
+          "category": "Quinoa",
+          "image": "https://tse2.mm.bing.net/th/id/OIP.ibU4BS7WaniE0D9zVFa7agHaKF?w=202&h=275&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+          "quantity": "100 grams"
+        },
+        {
+          "id": "MealMate_1726552025825",
+          "foodItemId": "MealMate_1726552025825",
+          "name": "Gulab Jamun",
+          "description": "classic Indian sweet made with milk solids.",
+          "category": "Sweet",
+          "image": "https://www.bing.com/th?id=OIP.kq4e7jHaSt3t1BAKFKVjNgHaHa&w=146&h=146&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+          "quantity": "2 pieces"
+        }
+      ],
+      "mealPrice": "120",
+      "mealId": "Meal_1726670426075"
+    }
+  ],
+  "foodItems": [
+    {
+      "id": "MealMate_1726547830701",
+      "foodItemId": "MealMate_1726547830701",
+      "name": "Ghee Rice",
+      "description": "Ghee rice is a one pot rice dish made with ghee, rice, spices & nuts. It is one of the most basic flavored rice recipe served with kurma or any curry.",
+      "category": "Rice",
+      "image": "https://th.bing.com/th?q=Ghee+Rice+PNG&w=138&h=138&c=7&o=5&dpr=1.5&pid=1.7&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1",
+      "quantity": "200 grams"
+    },
+    {
+      "id": "MealMate_1726547906410",
+      "foodItemId": "MealMate_1726547906410",
+      "name": "Chicken Salad",
+      "description": "Chicken Salad Chick is a chicken salad restaurant that offers over a dozen varieties of chicken salads, pimento cheese, and more. ",
+      "category": "Salad",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.1cYtq-NCJ02dCIO7Ll1PNAHaEK?w=303&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "quantity": "2 pieces"
+    },
+    {
+      "id": "MealMate_1726547977696",
+      "foodItemId": "MealMate_1726547977696",
+      "name": "chicken fry",
+      "description": "chicken fry of andhra style",
+      "category": "Curry",
+      "image": "https://th.bing.com/th?id=OSK.21c627cb9b9ee15ab4804e7a4f6ca20c&w=184&h=275&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+      "quantity": "200 grams"
+    },
+    {
+      "id": "MealMate_1726548034242",
+      "foodItemId": "MealMate_1726548034242",
+      "name": "Sambar",
+      "description": "sambar with drumsticks",
+      "category": "Sambar",
+      "image": "https://www.bing.com/th?id=OSK.fe1b428ff45c50ba16b896462587a8aa&w=197&h=118&c=7&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+      "quantity": "200 ml"
+    },
+    {
+      "id": "MealMate_1726550124614",
+      "foodItemId": "MealMate_1726550124614",
+      "name": "Quinoa Bowl",
+      "description": "Quinoa Bowl",
+      "category": "Quinoa",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.ibU4BS7WaniE0D9zVFa7agHaKF?w=202&h=275&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "quantity": "100 grams"
+    },
+    {
+      "id": "MealMate_1726552025825",
+      "foodItemId": "MealMate_1726552025825",
+      "name": "Gulab Jamun",
+      "description": "classic Indian sweet made with milk solids.",
+      "category": "Sweet",
+      "image": "https://www.bing.com/th?id=OIP.kq4e7jHaSt3t1BAKFKVjNgHaHa&w=146&h=146&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+      "quantity": "2 pieces"
+    },
+    {
+      "foodItemId": "MealMate_1726552281335",
+      "name": "Payasam",
+      "description": "Vermicelli kheer is a lighter and more delicate version of rice kheer",
+      "category": "Sweet",
+      "image": "https://th.bing.com/th?id=OVFT.gdBqPqhGXihbVIkPLKxCOy&pid=News&w=300&h=186&c=14&rs=2&qlt=90&dpr=1.5",
+      "quantity": "100 ml",
+      "id": "MealMate_1726552281335"
+    }
+  ]
+}

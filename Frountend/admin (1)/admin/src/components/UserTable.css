@@ -1,0 +1,55 @@
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #181a1a;
+  font-size: 16px;
+}
+
+button.active {
+  background-color: #131414;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: #191b1a;
+}
+
+
+/* UserTable.css */
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 20px 0;
+}
+
+th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #000000;
+}
+
+th {
+background-color: #88cfcb;
+}
+
+tr:hover {
+background-color: #f1f1f1;
+}
+
+thead {
+background-color: #333;
+color: #f2f4f0;
+}
+
+tbody tr:nth-child(even) {
+background-color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #fff;
+}

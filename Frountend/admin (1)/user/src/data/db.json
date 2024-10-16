@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "6820",
+      "userId": "MealMate_User_1727067991968",
+      "name": "SUNIL SRI VAMSI ILLA",
+      "email": "vamsi@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "phoneNumber": "12345678",
+      "deliveryAddress": "rgdthfyjghlkj;l"
+    },
+    {
+      "id": "MealMate_User_1727068201534",
+      "userId": "MealMate_User_1727068201534",
+      "name": "SUNIL SRI VAMSI ILLA",
+      "email": "vamsi@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "phoneNumber": "12345678",
+      "deliveryAddress": "rgdthfyjghlkj;l"
+    },
+    {
+      "id": "MealMate_User_1727068238358",
+      "userId": "MealMate_User_1727068238358",
+      "name": "SUNIL SRI VAMSI ILLA",
+      "email": "vamsi@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "phoneNumber": "12345678",
+      "deliveryAddress": "rgdthfyjghlkj;l"
+    },
+    {
+      "id": "MealMate_User_1727068238358",
+      "userId": "MealMate_User_1727068238358",
+      "name": "temp",
+      "email": "temp@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "phoneNumber": "12345678",
+      "deliveryAddress": "rgdthfyjghlkj;l"
+    }
+  ],
+  "payment": [
+    {
+      "id": "4fb9",
+      "paymentId": "MealMate_User_1727074783375",
+      "userId": "MealMate_User_1727068238358",
+      "amount": 200,
+      "dateOfPayment": "2024-09-23T06:59:43.375Z",
+      "cancellation": "null",
+      "refundableAmount": 0,
+      "refundStatus": "null"
+    }
+  ]
+}

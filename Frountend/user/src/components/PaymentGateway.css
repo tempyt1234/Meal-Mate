@@ -1,0 +1,225 @@
+/* Background and container styling */
+.payment-gateway {
+    background-color: #fff; /* Set background color to white */
+    padding-top: 0; /* Remove any extra padding */
+    max-width: 70rem;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 8px solid #3aafa9; /* Navbar color */
+    position: relative;
+    overflow: hidden;
+}
+
+.payment-gateway:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.payment-gateway-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #3aafa9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Payment details styling */
+.payment-details {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+}
+
+.payment-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Center the button */
+.payment-details button {
+    display: block;
+    margin: 20px auto 0; /* Center the button with margin */
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #3aafa9;
+    color: white;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Payment Form Styling */
+.payment-form {
+    padding: 20px;
+    justify-content: center;
+    width: 35rem; /* Fixed width for the form */
+    max-width: 100%;  /* Ensure it does not overflow */
+    background-color: #f9f9f9; /* Soft background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the card horizontally */
+    margin-bottom: 20px; /* Add space below the form */
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #17252a;
+    margin-bottom: 5px;
+}
+
+/* Input Styling */
+.form-control {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #3aafa9;
+    box-shadow: 0 0 8px rgba(58, 175, 169, 0.2);
+}
+
+/* Card Number Input */
+.card-number-input {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* Expiry Date and CVV Layout */
+.expiry-cvv-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Gap between expiry and CVV */
+}
+
+.expiry-input,
+.cvv-input {
+    flex: 1;
+}
+
+/* Button Styling */
+.payment-button {
+    width: 100%;
+    max-width: 15em;
+    padding: 12px;
+    background-color: #3aafa9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+    margin-top: 20px; /* Add space above the button */
+}
+
+.payment-button:hover {
+    background-color: #2d8f8b;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Message styling */
+.message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Decorative circle */
+.payment-gateway::before,
+.payment-gateway::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    transition: width 0.4s ease, height 0.4s ease; /* Soft transition for size changes */
+}
+
+.payment-gateway::before {
+    top: -70px;
+    right: -70px;
+    width: 220px;
+    height: 220px;
+    background: rgba(58, 175, 169, 0.2);
+}
+
+.payment-gateway::after {
+    bottom: -80px;
+    left: -80px;
+    width: 250px;
+    height: 250px;
+    background: rgba(58, 175, 169, 0.3);
+}
+
+/* Hover effect for decorative circles */
+.payment-gateway:hover::before {
+    width: 200px; /* Reduced size of the first bubble */
+    height: 200px; /* Reduced size of the first bubble */
+}
+
+.payment-gateway:hover::after {
+    width: 230px; /* Reduced size of the second bubble */
+    height: 230px; /* Reduced size of the second bubble */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .payment-gateway {
+        padding: 30px;
+        margin: 40px auto;
+    }
+
+    .expiry-cvv-group {
+        flex-direction: column;
+    }
+}

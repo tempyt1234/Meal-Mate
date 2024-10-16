@@ -1,0 +1,78 @@
+.food-item-form {
+  background-color: #f9f9f9;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2em auto;
+}
+
+.form-group {
+  margin-bottom: 1.5em;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Flexbox for Quantity and Unit */
+.quantity-group {
+  display: flex;
+  gap: 1em;
+}
+
+/* Ensure input and select elements are flexible within the flexbox container */
+.quantity-input {
+  flex: 1;
+}
+
+.unit-select {
+  flex: 1;
+  appearance: none; /* Reset browser-specific styles */
+  padding: 0.75em;  /* Consistent padding */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 1em;
+  width: 100%; /* Ensure select takes up full width */
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75em;
+  background-color: #17252a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #3aafa9;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Invalid input styles */
+.food-item-form input.is-invalid,
+.food-item-form select.is-invalid {
+  border-color: red;
+}
+
+.food-item-form input.is-invalid:focus,
+.food-item-form select.is-invalid:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}

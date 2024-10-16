@@ -1,0 +1,449 @@
+/* MealPlan.css */
+.custom-date-picker {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align elements */
+  padding-top: 5.5%; /* Add padding for breathing space */
+  padding-bottom: 3%;
+  background-color: #ffffff; /* White background for cleanliness */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.date-picker-container {
+  display: flex; /* Use flexbox to align date pickers */
+  justify-content: center; /* Center the date pickers horizontally */
+  margin: 20px 0; /* Space between title and date pickers */
+  position: relative; /* Establish a positioning context */
+}
+
+.date-picker-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack label and date picker vertically */
+  align-items: center; /* Center align label and picker */
+  margin: 0 20px; /* Space between the date pickers */
+}
+
+.date-label {
+  font-size: 16px; /* Label font size */
+  margin-bottom: 8px; /* Space between label and input */
+  color: #333; /* Dark color for visibility */
+}
+
+.date-picker {
+  width: 100%; /* Full width for responsiveness */
+  max-width: 300px; /* Set a max width */
+  padding: 10px; /* Inner padding for better spacing */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Increase font size */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: border-color 0.3s; /* Smooth transition for border color on focus */
+}
+
+/* Change border color on focus */
+.date-picker:focus {
+  border-color: #007bff; /* Change to your primary color */
+  outline: none; /* Remove default outline */
+}
+
+/* Placeholder styles */
+.date-picker::placeholder {
+  color: #aaa; /* Light color for placeholder */
+  opacity: 1; /* Ensures the opacity is fully visible */
+}
+
+/* Style for the DatePicker calendar */
+.react-datepicker {
+  background-color: white; /* Background color for the calendar */
+  border-radius: 8px; /* Rounded corners for the calendar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the calendar */
+  z-index: 9999; /* Higher z-index to ensure it appears above other content */
+  position: absolute; /* Ensure it is positioned above other elements */
+}
+
+/* Style for calendar header */
+.react-datepicker__header {
+  background-color: #3aafa9; /* Header background color */
+  color: white; /* Header text color */
+}
+
+/* Style for day cells */
+.react-datepicker__day {
+  background-color: transparent; /* Ensure day cells are transparent */
+}
+
+/* Change color on hover */
+.react-datepicker__day:hover {
+  background-color: #007bff; /* Hover color for day cells */
+  color: white; /* Text color on hover */
+}
+
+/* Active day style */
+.react-datepicker__day--selected {
+  background-color: #007bff; /* Background color for selected day */
+  color: white; /* Text color for selected day */
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .date-picker {
+      max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .date-picker-wrapper {
+      margin: 0 10px; /* Adjust margin for smaller screens */
+  }
+}
+
+/* Background and container styling */
+.meal-plan {
+  background-color: #fff; /* Set background color to white */
+  padding-top: 0; /* Remove any extra padding */
+  max-width: 70rem;
+  margin: 20px auto;
+  padding: 40px; /* Added padding for better spacing */
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 8px solid #3aafa9; /* Navbar color */
+  position: relative;
+  overflow: hidden;
+}
+
+.meal-plan:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.meal-plan-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px; /* Increased font size for better emphasis */
+  font-weight: 900;
+  color: #3aafa9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering and spacing for selection items */
+.selection-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10rem; /* Space between items */
+  margin-bottom: 30px; /* Space below the selection container */
+}
+
+/* Button styling */
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #17252a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+button:hover {
+  background-color: #0c2b2d;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Card button styling */
+.card-button {
+  width: 9rem;
+  height: 9rem;
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid transparent;
+  border-radius: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1);
+  animation: border-rotation 1s linear infinite;
+}
+
+@keyframes border-rotation {
+  0% {
+    border-color: #9defeb;
+  }
+  25% {
+    border-color: #46aca7;
+  }
+  50% {
+    border-color: #9defeb;
+  }
+  75% {
+    border-color: #46aca7;
+  }
+  100% {
+    border-color: #9defeb;
+  }
+}
+
+.card-button span {
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Meal Plan Details Styling */
+.meal-plan-details {
+  padding: 20px; /* Padding for internal spacing */
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+
+  margin-bottom: 30px; /* Space below the meal plan details */
+}
+
+.meal-plan-details h1,
+.meal-plan-details h2,
+.meal-plan-details h3 {
+  margin-bottom: 15px; /* Space below headings */
+  color: #17252a; /* Dark color for contrast */
+}
+
+.meal-plan-details h1 {
+  font-size: 28px; /* Font size for h1 */
+  font-weight: bold;
+}
+
+.meal-plan-details h2 {
+  font-size: 24px; /* Font size for h2 */
+  font-weight: 600;
+}
+
+.meal-plan-details h3 {
+  font-size: 20px; /* Font size for h3 */
+  font-weight: 500;
+}
+
+/* Carousel control styles */
+.carousel-control-prev,
+.carousel-control-next {
+  background: none; /* Remove background */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set arrow button background to black */
+  border-radius: 0; /* Remove any border radius */
+  width: 30px; /* Adjust the width of the icons */
+  height: 30px; /* Adjust the height of the icons */
+}
+
+/* Optional: Change the color of the arrow itself */
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  color: white; /* Change the arrow color to white for visibility */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent; /* Optional: Ensure no background on hover */
+}
+
+/* Meal Plan Card Styling */
+.meal-card {
+  background: linear-gradient(135deg, #f9f9f9 30%, #3aafa9 100%); /* Light gradient background */
+  margin: 15px; /* Margin for spacing between cards */
+  padding: 20px; /* Padding for internal spacing */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 0 1 calc(48% - 15px); /* Ensure cards take up almost half the width with spacing */
+  min-width: 280px; /* Minimum width for smaller screens */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  overflow: hidden; /* Prevent overflow for rounded corners */
+}
+
+/* Card Hover Effect */
+.meal-card:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Image Styling */
+.meal-card img {
+  width: 9rem; /* Set width to 100% of the column */
+  height: 9rem; /* Fixed height for uniformity */
+  object-fit: cover; /* Maintain aspect ratio */
+  object-position: center; /* Center the image */
+  border-radius: 15px 15px 0 0; /* Match image corners with card */
+}
+
+/* Card Body Styling */
+.meal-card .card-body {
+  padding: 1.5em; /* Increased padding for spacious feel */
+}
+
+/* Card Title Styling */
+.meal-card .card-title {
+  font-weight: bold; /* Bold title */
+  font-size: .6em; /* Slightly larger font size */
+  color: #17252a; /* Dark color for contrast */
+  margin-bottom: 0.5em; /* Space below title */
+}
+
+/* Card Text Styling */
+.meal-card .card-text {
+  color: #555; /* Darker text color for better readability */
+  margin-bottom: 1em; /* Space below text */
+  line-height: 1.5; /* Improved line height for readability */
+}
+
+/* Button Styling */
+.meal-card button {
+  background-color: #3aafa9 !important; /* Ensure button color */
+  border: none; /* Remove border */
+  color: white; /* Text color */
+  border-radius: 5px; /* Rounded buttons */
+  padding: 0.5em 1em; /* Button padding */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  font-weight: bold; /* Bold text for buttons */
+}
+
+/* Button Hover Effects */
+.meal-card button:hover {
+  opacity: 0.9; /* Slightly fade buttons on hover */
+}
+
+/* Food Item Styling */
+/* Food Item Styling */
+.food-item {
+  flex: 0 0 18%; /* Adjust flex-basis for better spacing */
+  padding: 10px; /* Internal padding */
+  margin: 5px; /* Space between items */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: rgba(58, 175, 169, 0.001); /* Transparent background matching main color */
+  border-radius: 1em; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for food items */
+}
+
+/* Food Item Image */
+.food-item img {
+  width: 100px; 
+  height: 100px; 
+  border: 2px solid #35827e;
+
+  border-radius: 40%; /* Rounded corners for image */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .meal-plan {
+    padding: 30px;
+    margin: 40px auto;
+  }
+
+  .meal-card {
+    flex: 0 1 100%; /* Make cards take full width on smaller screens */
+  }
+
+  .meal-card img {
+    height: 120px; /* Adjust image height for smaller screens */
+  }
+
+  .meal-card .card-body {
+    padding: 1em; /* Reduce padding on smaller screens */
+  }
+
+  .meal-card .card-title {
+    font-size: 1.4em; /* Adjust title size for smaller screens */
+  }
+
+  .food-item {
+    flex: 0 0 48%; /* Adjust flex-basis for better spacing on smaller screens */
+  }
+}
+/* Decorative circle */
+/* Decorative circle with transition */
+.meal-plan::before, .meal-plan::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition */
+}
+
+.meal-plan::before {
+  top: -70px;
+  right: -70px;
+  width: 220px;
+  height: 220px;
+  background: rgba(58, 175, 169, 0.2);
+}
+
+.meal-plan::after {
+  bottom: -80px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background: rgba(58, 175, 169, 0.3);
+}
+
+/* Add hover effect to the meal plan to scale the circles */
+.meal-plan:hover::before {
+  transform: scale(1.1); /* Scale up on hover */
+  opacity: 0.8; /* Slightly fade on hover */
+}
+
+.meal-plan:hover::after {
+  transform: scale(1.1); /* Scale up on hover */
+  opacity: 0.8; /* Slightly fade on hover */
+}
+
+/* Button styling */
+.subscribe_button {
+  padding: 0.75rem 1.5rem;
+  background-color: #17252a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.subscribe_button:hover {
+  background-color: #0c2b2d;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+{
+    "sales":{
+        "salesId": 1001,
+        "user": {
+          "userid": 1,
+          "name": "John Doe",
+          "emailid": "john@example.com",
+          "deliveryaddress": "123 Elm St",
+          "phone": 1234567890,
+          "subscription": {
+            "subscriptionid": 2001,
+            "mealplan": {
+              "mealplanid": 5001,
+              "diettype": "Balanced-Veg",
+              "planprice": 299.99,
+              "meals": [
+                {
+                  "mealid": 101,
+                  "mealprice": 9.99,
+                  "fooditems": [
+                    {
+                      "foodid": 301,
+                      "name": "Salad",
+                      "description": "Fresh garden salad",
+                      "image": "salad.jpg",
+                      "category": "Vegetarian",
+                      "quantity": 1
+                    },
+                    {
+                      "foodid": 302,
+                      "name": "Juice",
+                      "description": "Fresh orange juice",
+                      "image": "juice.jpg",
+                      "category": "Beverage",
+                      "quantity": 1
+                    }
+                  ]
+                },
+                {
+                  "mealid": 102,
+                  "mealprice": 12.99,
+                  "fooditems": [
+                    {
+                      "foodid": 303,
+                      "name": "Pasta",
+                      "description": "Creamy Alfredo Pasta",
+                      "image": "pasta.jpg",
+                      "category": "Vegetarian",
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "startdate": "2024-01-01",
+            "enddate": "2024-12-31",
+            "price": 299.99
+          }
+        },
+        "payment": {
+          "paymentid": 3001,
+          "amount": 299.99,
+          "dateofpayment": "2024-01-01",
+          "cancellation": "No",
+          "refundableamount": 0.0,
+          "refundstatus": "N/A"
+        },
+        "salesDate": "2024-09-11"
+      }
+      
+}

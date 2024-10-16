@@ -1,0 +1,511 @@
+{
+  "mealplan":[
+    {
+      "mealPlanId": "MealPlan_1726757097270",
+      "dietType": "Balanced-Veg",
+      "mealplanPrice": "1200",
+      "meals": [
+        {
+          "id": 1,
+          "dayOfTheWeek": "MONDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 200,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "dayOfTheWeek": "TUESDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 200,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "dayOfTheWeek": "WEDNESDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 200,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "dayOfTheWeek": "THURSDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 200,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "dayOfTheWeek": "FRIDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 200,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "dayOfTheWeek": "SATURDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 1100,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7,
+          "dayOfTheWeek": "SUNDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 2000,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mealPlanId": "MealPlan_1726757097270",
+      "dietType": "Balanced-Non-Veg",
+      "mealplanPrice": "100",
+      "meals": [
+        {
+          "id": 1,
+          "dayOfTheWeek": "MONDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 400,
+            "foodItems": [
+              
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "dayOfTheWeek": "TUESDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 2000,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "dayOfTheWeek": "WEDNESDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 600,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "dayOfTheWeek": "THURSDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 3500,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "dayOfTheWeek": "FRIDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 200,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "dayOfTheWeek": "SATURDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 1100,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7,
+          "dayOfTheWeek": "SUNDAY",
+          "meal": {
+            "mealId": "Meal_1726757066130",
+            "mealPrice": 2000,
+            "foodItems": [
+              {
+                "foodItemId": "MealMate_1726756825740",
+                "name": "Paneer butter masala",
+                "description": "Made with pure panner",
+                "image": "https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=184&h=184&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1",
+                "category": "Curry",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726756923923",
+                "name": "white Rice",
+                "description": "White rice is milled rice that has had its husk, bran, and germ removed. ",
+                "image": "https://www.bing.com/th?id=OIP.NyT1u8U2izZloQ197kWuGAHaE6&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+                "category": "Rice",
+                "quantity": "150 grams"
+              },
+              {
+                "foodItemId": "MealMate_1726757040022",
+                "name": "DrumStickSambar",
+                "description": "Simple drumstick sambar made with dal, vegetable drumsticks or murungakkai, sambhar powder & spices",
+                "image": "https://tse3.mm.bing.net/th/id/OIP.Y7DhzKufP06v3v-YG7E9MAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+                "category": "Sambar",
+                "quantity": "100 ml"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

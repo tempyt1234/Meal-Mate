@@ -1,0 +1,48 @@
+ /* Styling for the About page */
+.container {
+    padding: 50px 0;
+  }
+  
+  .about-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation for title */
+  .animate-title {
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  /* Card animation */
+  .animate-card {
+    animation: fadeInUp 1.2s ease;
+  }
+  
+  /* Keyframes for title animation */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Keyframes for card animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

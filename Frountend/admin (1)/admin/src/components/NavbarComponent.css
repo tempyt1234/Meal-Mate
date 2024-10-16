@@ -1,0 +1,49 @@
+/* src/components/NavbarComponent.css */
+.navbar {
+  background-color: #3aafa9;
+  padding: 0.01em;
+}
+
+.navbar-logo {
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 8rem;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 4px;
+  margin: 0 0.5rem;
+  display: inline-block;
+  position: relative; /* Position relative for the pseudo-element */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Space from the text */
+  width: 100%;
+  height: 3px; /* Thickness of the underline */
+  background-color: #000; /* Color of the underline */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transform: scaleX(0); /* Initial scale for the underline */
+}
+
+/* Hover effect */
+.nav-link:hover::after {
+  opacity: 1; /* Show underline on hover */
+  transform: scaleX(1); /* Scale to full width on hover */
+}
+
+/* Active link effect */
+.active-link {
+  font-weight: bold;
+}
